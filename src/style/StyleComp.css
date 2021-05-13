@@ -1,0 +1,12 @@
+.productos {
+    list-style:none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px 10px;
+}
+
+.producto {
+    background: rgb(195, 213, 253);
+    border-color: black;
+    border-radius: 3%;
+}
